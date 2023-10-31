@@ -48,11 +48,14 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Yunus Emre.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">1,5 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Merhaba, Ben Yunus Emre.</span>
+        <br />
+        <span className="font-bold">1,5</span> senedir{" "}
+        <span className="font-bold">full-stack web geliştiricisiyim</span>.
+        <span className="italic">web siteleri ve uygulamalar</span>{" "}
+        geliştiriyorum. Asıl odak noktam
+        <br />
+        <span className="underline">React (Next.js)</span>
       </motion.h1>
 
       <motion.div
@@ -67,7 +70,7 @@ export default function Intro() {
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
         >
-          Contact me here{" "}
+          iletişime geç{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -76,7 +79,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          CV İndir{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </Link>
 
