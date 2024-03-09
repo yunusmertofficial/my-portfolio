@@ -7,8 +7,10 @@ import {
   RiTodoFill,
   RiArrowDownSLine,
 } from "react-icons/ri";
-import DevImg from "../DevImg";
+import DevImg from "./DevImg";
 import Link from "next/link";
+import Socials from "../Socials";
+import Badge from "../Badge";
 
 const Hero = () => {
   return (
@@ -21,7 +23,7 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Merhaba, benim adım Yunus Emre</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0 ">
-              {`Bilgisayar programcılığı alanında eğitim alıyor ve yazılım sektöründe çalışıyorum. Bu sayede, Docker'dan GraphQL'e kadar modern
+              {`Bilgisayar programcılığı alanında eğitim alıyor ve yazılım sektöründe çalışıyorum. Bu sayede modern
               teknolojilerde deneyim kazandım. Aynı zamanda, HTML, CSS,
               React.js, JavaScript, Node.js ve Next.js gibi önemli front-end ve
               back-end teknolojilerinde yetkinim.`}
@@ -39,9 +41,38 @@ const Hero = () => {
                 </Button>
               </Link>
             </div>
+            <Socials
+              containerStyles="flex gap-x-6 mx-auto xl:mx-0"
+              iconStyles="text-foreground text-[22px] hover:text-primary transition-all"
+            />
           </div>
 
-          <div className="hidden xl:flex relative">Image</div>
+          <div className="hidden bg-hero_shape2_light dark:bg-hero_shape2_dark bg-no-repeat bg-center w-[500px] h-[500px] xl:block relative">
+            <Badge
+              containerStyles="absolute top-[24%] -left-[5rem]"
+              endCountNum={2}
+              badgeText="Deneyim Yılı"
+              icon={<RiBriefcase4Fill size={30} />}
+            />
+            <Badge
+              containerStyles="absolute top-[80%] left-[1rem]"
+              endCountNum={10}
+              endCountText="+"
+              badgeText="Bitilmiş Projeler"
+              icon={<RiTodoFill size={30} />}
+            />
+            <Badge
+              containerStyles="absolute top-[50%] -right-[3rem]"
+              endCountNum={100}
+              endCountText="%"
+              badgeText="Mutlu Müşteri"
+              icon={<RiTodoFill size={30} />}
+            />
+            <DevImg
+              containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat bg-center relative bg-bottom relative"
+              imgSrc="/hero/dev.png"
+            />
+          </div>
         </div>
         <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
           <RiArrowDownSLine className="text-3xl text-primary" />
