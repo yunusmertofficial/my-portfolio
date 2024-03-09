@@ -14,7 +14,7 @@ import Badge from "../Badge";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:pb-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom dark:bg-none">
+    <section className="py-12 xl:pb-24 xl:pt-28 bg-[#fef9f5] dark:bg-transparent relative">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
@@ -74,9 +74,9 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
-          <RiArrowDownSLine className="text-3xl text-primary" />
-        </div>
+      </div>
+      <div className="hidden md:flex absolute left-2/4 bottom-0 animate-bounce z-20">
+        <RiArrowDownSLine className="text-3xl text-primary" />
       </div>
     </section>
   );
