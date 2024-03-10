@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 interface NavProps {
   containerStyles: string;
   linkStyles: string;
-  underlineStyles: string;
+  underlineStyles?: string;
 }
 
 const links = [
