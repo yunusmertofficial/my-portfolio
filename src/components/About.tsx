@@ -249,7 +249,7 @@ const About = () => {
               </TabsContent>
               <TabsContent value="skills">
                 {/* yan yana 3 tane gelsin */}
-                <div className="grid xl:grid-cols-3 gap-8">
+                <div className="grid xl:grid-cols-2 gap-8">
                   {skillsData.map((data, index) => {
                     const { title } = data;
                     return (
