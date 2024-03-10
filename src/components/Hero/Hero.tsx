@@ -7,7 +7,7 @@ import {
   RiTodoFill,
   RiArrowDownSLine,
 } from "react-icons/ri";
-import DevImg from "./DevImg";
+import DevImg from "../DevImg";
 import Link from "next/link";
 import Socials from "../Socials";
 import Badge from "../Badge";
