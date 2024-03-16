@@ -18,16 +18,8 @@ const infoData = [
     text: "Yunus Emre Mert",
   },
   {
-    icon: <PhoneCall size={20} />,
-    text: "530 880 86 37",
-  },
-  {
     icon: <MailIcon size={20} />,
     text: "yunusmertofficial@gmai.com",
-  },
-  {
-    icon: <Calendar size={20} />,
-    text: "15 Aralık 2004",
   },
   {
     icon: <GraduationCap size={20} />,
