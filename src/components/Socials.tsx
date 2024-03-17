@@ -27,7 +27,7 @@ const icons = [
   },
   {
     Icon: RiYoutubeFill,
-    link: "https://www.youtube.com/c/#",
+    link: "https://www.youtube.com/#",
   },
 ];
 
