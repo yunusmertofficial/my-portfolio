@@ -56,7 +56,6 @@ const Projects = () => {
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           Projelerim
         </h2>
-        {/* tabs */}
         <Tabs defaultValue={category}>
           <TabsList className="w-full grid h-full md:grid-cols-3 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
             {categories.map((item, index) => {
