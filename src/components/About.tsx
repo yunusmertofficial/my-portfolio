@@ -5,11 +5,8 @@ import {
   User2,
   MailIcon,
   HomeIcon,
-  PhoneIcon,
   GraduationCap,
-  Calendar,
   Briefcase,
-  PhoneCall,
 } from "lucide-react";
 
 const infoData = [
@@ -135,7 +132,7 @@ const About = () => {
         <div className="flex-1">
           <Tabs defaultValue="personal">
             <TabsList className="w-full grid grid-cols-3 xl:border dark:border-none">
-              <TabsTrigger value="personal">Kişisel Bilgilerim</TabsTrigger>
+              <TabsTrigger value="personal">Bilgilerim</TabsTrigger>
               <TabsTrigger value="qualifications">Niteliklerim</TabsTrigger>
               <TabsTrigger value="skills">Becerilerim</TabsTrigger>
             </TabsList>
