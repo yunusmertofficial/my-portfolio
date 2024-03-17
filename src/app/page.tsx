@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Cta from "@/components/Cta";
 import Divider from "@/components/Divider";
 import Hero from "@/components/Hero/Hero";
 import Reviews from "@/components/Reviews";
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Work />
       <Reviews />
+      <Cta />
     </main>
   );
 }
