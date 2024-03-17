@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Divider from "@/components/Divider";
 import Hero from "@/components/Hero/Hero";
+import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import Work from "@/components/Work";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Services />
       <Work />
+      <Reviews />
     </main>
   );
 }
